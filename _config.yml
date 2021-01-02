@@ -3,7 +3,7 @@ title               : Guilherme Lourenço
 description         : THERE IS ALWAYS SOMETHING NEW TO LEARN, SO TAKE YOUR SEAT AND FOLLOW THIS JOURNEY WITH ME.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : guilourenzo/guilourenzo.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : 
+remote_theme        : ""
 
 
 ### Plugins ###
