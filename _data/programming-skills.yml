@@ -1,0 +1,11 @@
+- name: Python
+  percentage: 80
+  color: danger
+
+- name: SQL/MySQL
+  percentage: 90
+  color:
+
+- name: Github
+  percentage: 75
+  color: dark

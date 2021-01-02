@@ -1,0 +1,84 @@
+### Site Settings ###
+title               : Guilherme Lourenço
+description         : THERE IS ALWAYS SOMETHING NEW TO LEARN, SO TAKE YOUR SEAT AND FOLLOW THIS JOURNEY WITH ME.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : guilourenzo/guilourenzo.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : guilourenzo/guilourenzo
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+### Author Info ###
+author:
+  name              : Guilherme Lourenço
+  image             : https://i.imgur.com/jV9mb33.jpg
+# behance           : your_username
+# dribbble          : your_username
+  email             : gui.lourenzo@gmail.com
+  facebook          : guilourenzo
+  github            : guilourenzo
+# gitlab            : guilourenzo
+  instagram         : guilourenzo
+# kaggle            : guilourenzo
+  linkedin          : guilourenzo
+  medium            : guilourenzo
+# soundcloud        : guilourenzo
+# spotify           : guilourenzo
+# stackoverflow     : your_user_id
+# tumblr            : guilourenzo.tumblr.com
+# twitch            : guilourenzo
+  twitter           : guilourenzo
+# vimeo             : guilourenzo
+# youtube           : your_channel_name
+# keybase           : guilourenzo
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: true                                        # Set true to enable analytics
+  google:
+    tracking_id: UA-162344425-1
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"

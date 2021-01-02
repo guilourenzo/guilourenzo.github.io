@@ -1,0 +1,11 @@
+- name: Tableau
+  percentage: 70
+  color: info
+
+- name: Atlassian Confluence
+  percentage: 90
+  color: success
+
+- name: Atlassian Jira
+  percentage: 75
+  color: success
