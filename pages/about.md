@@ -8,9 +8,9 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-The world is changing rapidly and I am looking to learn a few tricks that keep me changing with it.</br>
+The world is changing rapidly and I am looking to learn a few tricks that keep me changing with it.
 
-From project analysis, system documentation, development in SQL, SAS or Python, data visualization with Tableau and Machine Learning we can find something to keep growing in knowledge.</br>
+From project analysis, system documentation, development in SQL, SAS or Python, data visualization with Tableau and Machine Learning we can find something to keep growing in knowledge.
 
 If you know something that could help us to change the world, do not hesitate in contacting me and I'll be glad to be part of it.
 
